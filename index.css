@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: "Inter", sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h3,
+h4,
+.navbar-brand {
+    font-weight: 600;
+}
+
+nav {
+    margin-bottom: 4vh;
+}
+
+.col-md-6 {
+    text-align: center;
+}
+
+.col-md-12 {
+    text-align: center;
+}
+
+h0 {
+    font-size: 6.5rem;
+    font-weight: 700;
+}
+
+.statsTable {
+    text-align: center;
+}
+
+#ghlogo {
+    height: 3em;
+    width: 3em;
+    position: fixed;
+    bottom: 1em;
+    right: 1.5em;
+    background-color: white;
+    border-radius: 9999px;
+}
+
+.footer {
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    color: #303030;
+}
+
+.col-md-6 {
+    margin-bottom: 2rem;
+}
